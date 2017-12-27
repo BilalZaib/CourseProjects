@@ -24,4 +24,4 @@ OOAD_LAB_Project:
 	- Hostel Management System
 	- Hostem Management System is implemented in JAVA Language with proper interface.
 	- Tools: JAVA Language, JAVA Swing, Eclips
- 
+
