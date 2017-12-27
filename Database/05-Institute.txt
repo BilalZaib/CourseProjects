@@ -1,0 +1,15 @@
+
+
+create table Institute (inst_id number(2) constraint pkk4 primary key , 
+inst_name varchar2 (80) , 
+inst_add varchar2 (80) , 
+inst_cont varchar2 (15)
+);
+
+insert into Institute values (10 , 'FAST_NUCE Peshawar' , 'Industrail State Hayatabad Phase_1' , '0303-2144497');
+insert into Institute values (20 , 'IM Sciences Peshawar' , 'Hayatabad Phase_7' , '0334-7586985');
+insert into Institute values (30 , 'CECOS University Peshawar' , 'Hayatabad Phase_5' , '0314-7584543');
+insert into Institute values (40 , 'IQRA NU Peshawar' , 'Hayatabad Phase_3' , '0303-2775453');
+insert into Institute values (50 , 'Gomal University Peshawar' , 'University Road Peshawar' , '0333-9356132');
+insert into Institute values (60 , 'University of Peshawar' , 'University Road Peshawar' , '0343-2875867');
+insert into Institute values (70 , 'Sarhad University' , 'Ring Road Peshawar' , '0323-2175476');

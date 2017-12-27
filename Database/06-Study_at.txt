@@ -1,0 +1,26 @@
+
+
+create table Study_at (st_id number(2) constraint fkk3 references Bi_Student(st_id) , 
+inst_id number(2) constraint fkk4 references Institute(inst_id)
+);
+
+insert into Study_at values (1,10);
+insert into Study_at values (2,20);
+insert into Study_at values (3,40);
+insert into Study_at values (4,50);
+insert into Study_at values (5,20);
+insert into Study_at values (6,30);
+insert into Study_at values (7,50);
+insert into Study_at values (8,60);
+insert into Study_at values (9,30);
+insert into Study_at values (10,10);
+insert into Study_at values (11,40);
+insert into Study_at values (12,20);
+insert into Study_at values (13,10);
+insert into Study_at values (14,70);
+insert into Study_at values (15,60);
+insert into Study_at values (16,50);
+insert into Study_at values (17,40);
+insert into Study_at values (18,30);
+insert into Study_at values (19,20);
+insert into Study_at values (20,10);

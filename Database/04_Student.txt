@@ -1,0 +1,29 @@
+
+
+create table Bi_Student (st_id number(2) constraint pkk3 primary key , 
+st_name varchar2 (30) , 
+prog varchar2 (5) , 
+CNIC varchar2 (15) , 
+St_phone varchar2 (12)
+);
+
+insert into Bi_Student values (1 , 'Bilal Zaib' , 'CS' , '36304-318854-9' , '0302-2144497');
+insert into Bi_Student values (2 , 'Saddam Hussain' , 'ME' , '36304-318456-6' , '0302-2144490');
+insert into Bi_Student values (3 , 'Fareed Afzal' , 'CS' , '36304-314564-8' , '0302-2144491');
+insert into Bi_Student values (4 , 'Mehroz Alam' , 'CS' , '32332-318744-9' , '0302-2144492');
+insert into Bi_Student values (5 , 'Akhtar Hussain' , 'CS' , '32332-318224-4' , '0302-2144493');
+insert into Bi_Student values (6 , 'Fakhar Abbas' , 'CS' , '34604-318854-5' , '0302-2144494');
+insert into Bi_Student values (7 , 'Shahzad Sultan' , 'CS' , '34604-318854-2' , '0302-2144495');
+insert into Bi_Student values (8 , 'Saud Arshad' , 'EE' , '34604-318854-5' , '0302-2144496');
+insert into Bi_Student values (9 , 'Hamza Khan' , 'EE' , '36304-318854-7' , '0302-2144498');
+insert into Bi_Student values (10 , 'Fiaz Ahmed' , 'EE' , '36304-318854-3' , '0302-2144499');
+insert into Bi_Student values (11 , 'Asjad Khan' , 'EE' , '38304-318865-9' , '0302-2144410');
+insert into Bi_Student values (12 , 'Rehmatullah' , 'BBA' , '38304-314354-1' , '0302-2144411');
+insert into Bi_Student values (13 , 'Raza Hussain' , 'BBA' , '38304-323854-0' , '0302-2144412');
+insert into Bi_Student values (14 , 'Azizullah' , 'BBA' , '30304-318854-9' , '0302-2144413');
+insert into Bi_Student values (15 , 'Mussawir Rehan' , 'CE' , '30304-316854-2' , '0302-2144414');
+insert into Bi_Student values (16 , 'Kaleem Pansota' , 'CE' , '30304-312854-7' , '0302-2144415');
+insert into Bi_Student values (17 , 'Faisal Usman' , 'CE' , '38304-318854-7' , '0302-2144416');
+insert into Bi_Student values (18 , 'Raheel Khan' , 'SE' , '36304-318854-6' , '0302-2144417');
+insert into Bi_Student values (19 , 'Mujtaba Ahmed' , 'SE' , '36304-33854-0' , '0302-2144418');
+insert into Bi_Student values (20 , 'Ahsan Manzoor' , 'ME' , '36302-356854-9' , '0302-2144419');

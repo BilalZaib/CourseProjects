@@ -1,0 +1,11 @@
+
+
+create table Mess (mess_id number(2) constraint pkk10 primary key , 
+m_name varchar2 (40)
+);
+
+insert into Mess values(51,'National_01 Mess');
+insert into Mess values(52,'National_02 Mess');
+insert into Mess values(53,'Bilal Mess');
+insert into Mess values(54,'Zikriya Mess');
+insert into Mess values(55,'National_03 Mess');

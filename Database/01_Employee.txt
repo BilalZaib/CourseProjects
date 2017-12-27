@@ -1,0 +1,28 @@
+
+
+create table Bi_Employee (emp_id number(3) constraint pkk1 primary key , 
+emp_name varchar2 (30) , 
+job varchar2 (20) , 
+sal number
+);
+
+insert into Bi_Employee values (100 , 'Sadaf Hussain' , 'Cook' , 25000);
+insert into Bi_Employee values (101 , 'Maaz Iqqbal' , 'Cook' , 24000);
+insert into Bi_Employee values (102 , 'Mudassir Meo' , 'Cook' , 20000);
+insert into Bi_Employee values (103 , 'Ismail Khan' , 'Cook' , 25000);
+insert into Bi_Employee values (104 , 'Srafraz Khan' , 'Cook' , 23000);
+insert into Bi_Employee values (105 , 'Kamal Khan' , 'Sweeper' , 13000);
+insert into Bi_Employee values (106 , 'Sundus Ali' , 'Sweeper' , 13000);
+insert into Bi_Employee values (107 , 'Momin Khan' , 'Sweeper' , 11000);
+insert into Bi_Employee values (108 , 'Muzzamil' , 'Sweeper' , 12000);
+insert into Bi_Employee values (109 , 'Waseef Khan' , 'Sweeper' , 12000);
+insert into Bi_Employee values (110 , 'Ajmal Khan' , 'Warden' , 30000);
+insert into Bi_Employee values (111 , 'Ukasha Tahir' , 'Warden' , 31000);
+insert into Bi_Employee values (112 , 'Kamal Hussain' , 'Warden' , 31000);
+insert into Bi_Employee values (113 , 'Shahid Hussain' , 'Warden' , 33000);
+insert into Bi_Employee values (114 , 'Ali Khan' , 'Warden' , 30000);
+insert into Bi_Employee values (115 , 'Waqas Aslam' , 'Gaurd' , 18000);
+insert into Bi_Employee values (116 , 'Fahad Baloch' , 'Gaurd' , 12000);
+insert into Bi_Employee values (117 , 'Daud Khan' , 'Gaurd' , 16000);
+insert into Bi_Employee values (118 , 'Raheel Ahmad' , 'Gaurd' , 15000);
+insert into Bi_Employee values (119 , 'Anas Awan' , 'Gaurd' , 15000);

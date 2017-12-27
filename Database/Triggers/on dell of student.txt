@@ -1,0 +1,11 @@
+
+
+create or replace trigger st_del
+before delete on Bi_student
+for each row
+
+begin
+delete from study_at where st_id = :old.st_id;
+delete from live_in where st_id = :old.st_id;
+end;
+/

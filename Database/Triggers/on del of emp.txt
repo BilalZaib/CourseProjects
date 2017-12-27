@@ -1,0 +1,10 @@
+
+
+create or replace trigger emp_del
+before delete on Bi_employee
+for each row
+
+begin
+delete from work where emp_id = :old.emp_id;
+end;
+/

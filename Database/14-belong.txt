@@ -1,0 +1,52 @@
+
+
+create table belong (r_id number(3) constraint fkk12 references Room(r_id) , 
+rcat_id number constraint fkk13 references Room_Category(rcat_id)
+);
+
+
+insert into belong values (111 , 5);
+insert into belong values (112 , 2);
+insert into belong values (113 , 3);
+insert into belong values (114 , 6);
+insert into belong values (115 , 4);
+insert into belong values (116 , 3);
+insert into belong values (117 , 2);
+insert into belong values (118 , 4);
+insert into belong values (119 , 1);
+insert into belong values (121 , 5);
+insert into belong values (122 , 4);
+insert into belong values (123 , 5);
+insert into belong values (124 , 1);
+insert into belong values (125 , 4);
+insert into belong values (126 , 2);
+insert into belong values (127 , 6);
+insert into belong values (128 , 4);
+insert into belong values (129 , 3);
+insert into belong values (131 , 5);
+insert into belong values (132 , 1);
+insert into belong values (133 , 9);
+insert into belong values (134 , 8);
+insert into belong values (135 , 3);
+insert into belong values (136 , 5);
+insert into belong values (137 , 6);
+insert into belong values (138 , 8);
+insert into belong values (139 , 5);
+insert into belong values (141 , 5);
+insert into belong values (142 , 3);
+insert into belong values (143 , 2);
+insert into belong values (144 , 3);
+insert into belong values (145 , 5);
+insert into belong values (146 , 8);
+insert into belong values (147 , 7);
+insert into belong values (148 , 2);
+insert into belong values (149 , 4);
+insert into belong values (151 , 5);
+insert into belong values (152 , 3);
+insert into belong values (153 , 2);
+insert into belong values (154 , 3);
+insert into belong values (155 , 5);
+insert into belong values (156 , 8);
+insert into belong values (157 , 7);
+insert into belong values (158 , 2);
+insert into belong values (159 , 4);

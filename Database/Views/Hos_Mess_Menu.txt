@@ -1,0 +1,4 @@
+
+CREATE VIEW Hostel_Mess_Menu AS 
+select Host_name "Hostel" , m_day "Day" , lunch , dinner 
+from Hostel natural join has_1 natural join Mess natural join Mess_menu;

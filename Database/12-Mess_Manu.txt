@@ -1,0 +1,44 @@
+
+
+create table Mess_menu (m_id number(3) constraint pkk9 primary key , 
+m_day varchar2 (15) , 
+dinner varchar2 (30) , 
+lunch varchar2 (30) ,
+mess_id number(2) constraint fkk11 references Mess(mess_id)
+);
+
+insert into Mess_menu values (111 , 'Saturday' , 'Daal Mash' , 'Chiken' , 51);
+insert into Mess_menu values (211 , 'Tuesday' , 'Sabzi Mix' , 'Chiken Beryani' , 51);
+insert into Mess_menu values (311 , 'Sunday' , 'Lobiya' , 'Beaf' , 51);
+insert into Mess_menu values (411 , 'Thursday' , 'Daal Chana' , 'Allo Chiken' , 51);
+insert into Mess_menu values (511 , 'Friday' , 'Chohly' , 'Allo Beryani' , 51);
+insert into Mess_menu values (611 , 'Monday' , 'Sabzi' , 'Daal Mash' , 51);
+insert into Mess_menu values (711 , 'Wednesday' , 'Rice' , 'Chiken Beryani' , 51);
+insert into Mess_menu values (112 , 'Thursday' , 'Daal Mash' , 'Chiken' , 52);
+insert into Mess_menu values (212 , 'Tuesday' , 'Sabzi Mix' , 'Chiken Beryani' , 52);
+insert into Mess_menu values (312 , 'Sunday' , 'Lobiya' , 'Beaf' , 52);
+insert into Mess_menu values (412 , 'Saturday' , 'Daal Chana' , 'Allo Chiken' , 52);
+insert into Mess_menu values (512 , 'Wednesday' , 'Chohly' , 'Allo Beryani' , 52);
+insert into Mess_menu values (612 , 'Monday' , 'Sabzi' , 'Daal Mash' , 52);
+insert into Mess_menu values (712 , 'Friday' , 'Rice' , 'Chiken Beryani' , 52);
+insert into Mess_menu values (113 , 'Monday' , 'Daal Mash' , 'Chiken' , 53);
+insert into Mess_menu values (213 , 'Wednesday' , 'Sabzi Mix' , 'Chiken Beryani' , 53);
+insert into Mess_menu values (313 , 'Sunday' , 'Lobiya' , 'Beaf' , 53);
+insert into Mess_menu values (413 , 'Saturday' , 'Daal Chana' , 'Allo Chiken' , 53);
+insert into Mess_menu values (513 , 'Tuesday' , 'Chohly' , 'Allo Beryani' , 53);
+insert into Mess_menu values (613 , 'Thursday' , 'Sabzi' , 'Daal Mash' , 53);
+insert into Mess_menu values (713 , 'Friday' , 'Rice' , 'Chiken Beryani' , 53);
+insert into Mess_menu values (114 , 'Monday' , 'Daal Mash' , 'Chiken' , 54);
+insert into Mess_menu values (214 , 'Wednesday' , 'Sabzi Mix' , 'Chiken Beryani' , 54);
+insert into Mess_menu values (314 , 'Thursday' , 'Lobiya' , 'Beaf' , 54);
+insert into Mess_menu values (414 , 'Friday' , 'Daal Chana' , 'Allo Chiken' , 54);
+insert into Mess_menu values (514 , 'Tuesday' , 'Chohly' , 'Allo Beryani' , 54);
+insert into Mess_menu values (614 , 'Sunday' , 'Sabzi' , 'Daal Mash' , 54);
+insert into Mess_menu values (714 , 'Saturday' , 'Rice' , 'Chiken Beryani' , 54);
+insert into Mess_menu values (115 , 'Tuesday' , 'Daal Mash' , 'Chiken' , 55);
+insert into Mess_menu values (215 , 'Wednesday' , 'Sabzi Mix' , 'Chiken Beryani' , 55);
+insert into Mess_menu values (315 , 'Thursday' , 'Lobiya' , 'Beaf' , 55);
+insert into Mess_menu values (415 , 'Saturday' , 'Daal Chana' , 'Allo Chiken' , 55);
+insert into Mess_menu values (515 , 'Monday' , 'Chohly' , 'Allo Beryani' , 55);
+insert into Mess_menu values (615 , 'Sunday' , 'Sabzi' , 'Daal Mash' , 55);
+insert into Mess_menu values (715 , 'Friday' , 'Rice' , 'Chiken Beryani' , 55);

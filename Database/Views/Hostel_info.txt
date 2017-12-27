@@ -1,0 +1,5 @@
+
+
+CREATE VIEW Hostel_info AS 
+select Host_id,Host_name "Hostel" ,Host_add "Address" , Host_cont "Contact"
+from Hostel;

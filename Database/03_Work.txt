@@ -1,0 +1,26 @@
+
+
+create table Work (emp_id number (3) constraint fkk1 references Bi_Employee(emp_id) , 
+Host_id number (2) constraint fkk2 references Hostel(Host_id)
+);
+
+insert into Work values (100,11);
+insert into Work values (105,11);
+insert into Work values (110,11);
+insert into Work values (115,11);
+insert into Work values (101,12);
+insert into Work values (106,12);
+insert into Work values (111,12);
+insert into Work values (116,12);
+insert into Work values (102,13);
+insert into Work values (107,13);
+insert into Work values (112,13);
+insert into Work values (117,13);
+insert into Work values (103,14);
+insert into Work values (108,14);
+insert into Work values (113,14);
+insert into Work values (118,14);
+insert into Work values (104,15);
+insert into Work values (109,15);
+insert into Work values (114,15);
+insert into Work values (119,15);

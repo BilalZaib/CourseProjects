@@ -1,0 +1,5 @@
+
+
+CREATE VIEW Hostel_Rooms AS
+select Host_name "Hostel" , rent , capacity , room_type 
+from Hostel natural join contain natural join Room natural join belong natural join Room_Category;

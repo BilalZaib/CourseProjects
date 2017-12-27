@@ -1,0 +1,3 @@
+CREATE VIEW Host_emp AS 
+SELECT emp_id,emp_name "Employee" , job , Host_id "Work_at" 
+FROM Bi_employee natural join work;

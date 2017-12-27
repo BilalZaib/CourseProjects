@@ -1,0 +1,29 @@
+
+
+create table Transaction (trans_id number constraint pkk5 primary key , 
+fees number (5) ,  
+trans_date date , 
+st_id number (2) constraint fkk5 references Bi_Student(st_id)
+);
+
+
+insert into Transaction values (1,6500,'1-MAR-2015',1);
+insert into Transaction values (2,7000,'1-MAR-2015',2);
+insert into Transaction values (3,11000,'2-MAR-2015',3);
+insert into Transaction values (4,6500,'2-MAR-2015',4);
+insert into Transaction values (5,6000,'1-MAR-2015',5);
+insert into Transaction values (6,6500,'3-MAR-2015',6);
+insert into Transaction values (7,6500,'3-MAR-2015',7);
+insert into Transaction values (8,11000,'3-MAR-2015',8);
+insert into Transaction values (9,15000,'4-MAR-2015',9);
+insert into Transaction values (10,6000,'4-MAR-2015',11);
+insert into Transaction values (11,6500,'5-MAR-2015',11);
+insert into Transaction values (12,7000,'2-MAR-2015',12);
+insert into Transaction values (13,15000,'5-MAR-2015',13);
+insert into Transaction values (14,15000,'5-MAR-2015',14);
+insert into Transaction values (15,6500,'5-MAR-2015',15);
+insert into Transaction values (16,6000,'5-MAR-2015',16);
+insert into Transaction values (17,8000,'5-MAR-2015',17);
+insert into Transaction values (18,6000,'5-MAR-2015',18);
+insert into Transaction values (19,6500,'7-MAR-2015',19);
+insert into Transaction values (20,7000,'7-MAR-2015',20);

@@ -1,0 +1,12 @@
+
+
+create table has_1 (
+mess_id number(2) constraint fkk9 references Mess(mess_id) , 
+Host_id number(2) constraint fkk10 references Hostel(Host_id)
+);
+
+insert into has_1 values (51 , 11);
+insert into has_1 values (52 , 12);
+insert into has_1 values (53 , 13);
+insert into has_1 values (54 , 14);
+insert into has_1 values (55 , 15);

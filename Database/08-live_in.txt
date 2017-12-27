@@ -1,0 +1,25 @@
+
+
+create table live_in (st_id number(2) constraint fkk6 references Bi_Student(st_id) , 
+Host_id number (2) constraint fkk7 references Hostel(Host_id));
+
+insert into live_in values (1,11);
+insert into live_in values (2,11);
+insert into live_in values (3,11);
+insert into live_in values (4,11);
+insert into live_in values (5,14);
+insert into live_in values (6,14);
+insert into live_in values (7,14);
+insert into live_in values (8,11);
+insert into live_in values (9,12);
+insert into live_in values (10,12);
+insert into live_in values (11,13);
+insert into live_in values (12,13);
+insert into live_in values (13,13);
+insert into live_in values (14,13);
+insert into live_in values (15,12);
+insert into live_in values (16,12);
+insert into live_in values (17,15);
+insert into live_in values (18,15);
+insert into live_in values (19,15);
+insert into live_in values (20,15);

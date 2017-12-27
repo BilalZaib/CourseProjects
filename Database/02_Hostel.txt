@@ -1,0 +1,16 @@
+
+
+create table Hostel (Host_id number(2) constraint pkk2 primary key , 
+Host_name varchar2 (30) , 
+Host_add varchar2 (50) , 
+Host_cont varchar2 (13)
+);
+
+insert into Hostel values (11 , 'National Hostel_01' , 'Hayatabad Phase_1 Peshawar' , '0304-2144497');
+insert into Hostel values (12 , 'National Hostel_02' , 'Hayatabad Phase_3 Peshawar' , '0344-2148460');
+insert into Hostel values (13 , 'Bilal Hostel' , 'Hayatabad Phase_1 Peshawar' , '0333-2042301');
+insert into Hostel values (14 , 'Zikriya Hostel' , 'Hayatabad Phase_1 Peshawar' , '0314-5877231');
+insert into Hostel values (15 , 'National Hostel_03' , 'Jawad Tower University road PWR' , '0301-1700099');
+
+
+

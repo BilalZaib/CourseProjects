@@ -1,0 +1,55 @@
+
+
+
+
+create table Room (r_id number(3) constraint pkk8 primary key , 
+rent number , 
+capacity number , 
+b_floor varchar2 (20)
+);
+
+insert into Room values (111 , 4500 , 3 , 'Ground');
+insert into Room values (112 , 4000 , 2 , 'Ground');
+insert into Room values (113 , 5000 , 4  'Ground');
+insert into Room values (114 , 4000 , 3 , 'First');
+insert into Room values (115 , 4500 , 2 , 'First');
+insert into Room values (116 , 5000 , 3 , 'First');
+insert into Room values (117 , 6000 , 5 , 'First');
+insert into Room values (118 , 4500 , 4 , 'First');
+insert into Room values (119 , 6000 , 4 , 'Ground');
+insert into Room values (121 , 4000 , 2 , 'Ground');
+insert into Room values (122 , 4000 , 2 , 'Ground');
+insert into Room values (123 , 5000 , 4 , 'Ground');
+insert into Room values (124 , 5000 , 4 , 'Ground');
+insert into Room values (125 , 5000 , 3 , 'First');
+insert into Room values (126 , 6000 , 5 , 'First');
+insert into Room values (127 , 6000 , 3 , 'First');
+insert into Room values (128 , 4500 , 3 , 'First');
+insert into Room values (129 , 4500 , 4 , 'First');
+insert into Room values (131 , 4500 , 2 , 'First');
+insert into Room values (132 , 4500 , 4 , 'First');
+insert into Room values (133 , 4000 , 4 , 'First');
+insert into Room values (134 , 4000 , 2 , 'First');
+insert into Room values (135 , 4000 , 2 , 'First');
+insert into Room values (136 , 6000 , 4 , 'Ground');
+insert into Room values (137 , 6000 , 3 , 'Ground');
+insert into Room values (138 , 5000 , 4 , 'Ground');
+insert into Room values (139 , 6000 , 4 , 'Ground');
+insert into Room values (141 , 5000 , 3 , 'Ground');
+insert into Room values (142 , 5000 , 3 , 'Ground');
+insert into Room values (143 , 6000 , 5 , 'Ground');
+insert into Room values (144 , 4000 , 3 , 'Ground');
+insert into Room values (145 , 4000 , 2 , 'First');
+insert into Room values (146 , 4500 , 3 , 'First');
+insert into Room values (147 , 4500 , 2 , 'First');
+insert into Room values (148 , 5000 , 4 , 'First');
+insert into Room values (149 , 4500 , 3 , 'Ground');
+insert into Room values (151 , 4500 , 2 , 'Ground');
+insert into Room values (152 , 4500 , 3 , 'Ground');
+insert into Room values (153 , 4000 , 2 , 'Ground');
+insert into Room values (154 , 4000 , 3 , 'Ground');
+insert into Room values (155 , 5000 , 4 , 'Ground');
+insert into Room values (156 , 5000 , 4 , 'First');
+insert into Room values (157 , 6000 , 5 , 'First');
+insert into Room values (158 , 6000 , 5 , 'First');
+insert into Room values (159 , 4500 , 3 , 'First');

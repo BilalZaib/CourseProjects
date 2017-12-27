@@ -1,0 +1,9 @@
+create or replace trigger del_student
+
+before delete on Bi_student 
+for each row 
+
+begin
+insert into student_log values (:old.st_id , :old.st_name , :old.prog , :old.CNIC , :old.st_phone);
+end;
+/

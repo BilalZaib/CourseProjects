@@ -1,0 +1,17 @@
+
+
+CREATE TABLE Room_Category (
+  rcat_id number constraint pkk13 primary key,
+  room_type varchar2 (40),
+  description varchar2 (60)
+);
+
+INSERT INTO Room_Category VALUES (1 , 'AC and attach bath' , 'These rooms have AC with remote and clean attach bath');
+INSERT INTO Room_Category VALUES (2 , 'Simple' , 'Very poor rent');
+INSERT INTO Room_Category VALUES (3 , 'Non-AC' , 'Nothing but clean and clear');
+INSERT INTO Room_Category VALUES (4 , 'Water cooler and attach bath' , 'cooled by a water cooler and clear attach bath');
+INSERT INTO Room_Category VALUES (5 , 'AC and water cooler and attach bath' , 'These rooms have AC and cooler both with attach bath');
+INSERT INTO Room_Category VALUES (6 , 'Non cooler and attach bath' , 'clean and clear with attach bath');
+INSERT INTO Room_Category VALUES (7 , 'water cooler' , 'Room cooled by a cooler and very clear');
+INSERT INTO Room_Category VALUES (8 , 'Attach bath' , 'carpeted and clean with attach bath');
+INSERT INTO Room_Category VALUES (9 , 'luxury' , 'Well furnished with bed and clean and clear attach bath');

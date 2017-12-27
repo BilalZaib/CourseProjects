@@ -1,0 +1,5 @@
+
+
+CREATE VIEW Hostel_student_info AS 
+select st_name "Student" , st_phone "Contact" , inst_name "Institute" , Host_name "Hostel" 
+from Hostel natural join live_in natural join Bi_student natural join study_at natural join Institute;
